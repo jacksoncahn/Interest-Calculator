@@ -1,0 +1,15 @@
+{
+  "name": "interest-computer",
+  "version": "1.0.0",
+  "description": "A simple interest computer",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": ["html", "css"],
+  "author": "Jackson Cahn",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "11.2.0"
+  }
+}

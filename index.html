@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Interest</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="cic.js" defer></script>
+  </head>
+  <body>
+    <!-- <img className = "backgroundimg" src = "Gemini_Generated_Image_5daoh05daoh05dao.jpg"></img> -->
+    <h1>Interest Calculator</h1>
+    <main>
+      <span>Principal Investment</span>
+      <input id="principal" />
+      <span>Interest Rate (%)</span>
+      <!--<input id="interest" />-->
+      <input type="range" id="interest" min="0" max="50" step="0.25"></input>
+      <output id="interestoutput">25</output>
+      <span>Compound Frequency</span>
+      <select id="compfreq">
+        <option>---</option>
+        <option>yearly</option>
+        <option>quarterly</option>
+        <option>monthly</option>
+        <option>daily</option>
+      </select>
+      <span>Time (years)</span>
+      <input id="years" />
+    </main>
+    <!-- <button onclick="calculator(years)">Calculate</button> -->
+    <h2>
+      <span><output id="accumulate"></output></span>
+      <span><output id="total"></output></span>
+    </h2>
+    <footer>
+      <a
+        href="https://codesandbox.io/p/sandbox/interest-calculator-y2tjwp?file=%2Findex.html%3A27%2C13"
+        >Visit Repo</a>
+      <div id="copyright">&#169<span>2024</span></div>
+    </footer>
+  </body>
+</html>
