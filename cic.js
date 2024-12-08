@@ -55,7 +55,7 @@ function calculator() {
   if (isNaN(P) || isNaN(I) || isNaN(Y) || isNaN(CF)) {
     total.textContent = "...";
   } else {
-    const returnable = P * (1 + 100) ** (Y * CF);
+    const returnable = P * (1 + I/CF) ** (Y * CF);
     const i = returnable - P;
     print_number(i, interest, false);
     print_number(returnable, total, true);
